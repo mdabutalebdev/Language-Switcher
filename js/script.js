@@ -12,7 +12,9 @@ function switchLanguage() {
       document.getElementById("banner-title").innerText = "Welcome to Our Website";
       document.getElementById("banner-subtitle").innerText = "We provide the best services for you.";
 
-       
+      // ✅ Button text for English
+      document.getElementById("banner-button").innerText = "Learn More";
+
       break;
 
     case "bn":
@@ -25,7 +27,9 @@ function switchLanguage() {
       document.getElementById("banner-title").innerText = "আমাদের ওয়েবসাইটে স্বাগতম";
       document.getElementById("banner-subtitle").innerText = "আমরা আপনার জন্য সেরা সেবা প্রদান করি।";
 
-       
+      // ✅ Button text for Bangla
+      document.getElementById("banner-button").innerText = "আরও জানুন";
+
       break;
 
     default:
